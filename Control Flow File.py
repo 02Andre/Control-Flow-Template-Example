@@ -16,7 +16,7 @@ while guess != myNumber:
     print("\nNope, guess again: ")
     guess = int(input("Enter a Guess: "))
 
-print("\nCongratulations, you guessed my number!!!")
+print("\nCongratulations, you guessed my number!!!"\n)
 
 #Programmer: Mr. Lange
 #Date: 12.19.19
@@ -32,4 +32,3 @@ x = 1
 while x <= 10:
     print(x)
     x+=1
-    
