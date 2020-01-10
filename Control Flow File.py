@@ -1,4 +1,5 @@
 
+
 #Programmer: Mr. Lange
 #Date: 1.6.20
 #Program: Running Total
@@ -33,6 +34,15 @@ for i in range(how_many_tests):
 average = total / how_many_tests
 
 print("\nAverage: " + str(round(average, 2)))
+
+# programmer: Andre SMITH
+# Date: 1-9-20
+# program:Break
+
+for i in range(2, 20):
+    if i == 7:
+        break
+    print(i)
 
 #Programmer: Mr. Lange
 #Date: 12.16.19
